@@ -9,66 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a11ecba3-c199-4e9e-9712-e55b18da8113" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/AddCarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/AddDriverToCarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/DeleteCarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/GetAllCarsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/GetMyCurrentCarsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/AddDriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/DeleteDriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/GetAllDriversController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/AddManufacturerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/DeleteManufacturerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/GetAllManufacturersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/CarDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/CarDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/DriverDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/DriverDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/ManufacturerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/ManufacturerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/exception/AuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/exception/DataProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Manufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/AuthenticationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/DriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/DriverServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/ManufacturerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/ManufacturerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/util/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/web/filter/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/init_db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars/all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars/drivers/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/table_dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drivers/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drivers/all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manufacturers/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manufacturers/all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a11ecba3-c199-4e9e-9712-e55b18da8113" name="Changes" comment="First version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,8 +170,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675938765372</updated>
-      <workItem from="1675938766661" duration="5169000" />
+      <workItem from="1675938766661" duration="6083000" />
     </task>
+    <task id="LOCAL-00001" summary="First version">
+      <created>1675944632738</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675944632738</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,5 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First version" />
+    <option name="LAST_COMMIT_MESSAGE" value="First version" />
   </component>
 </project>
